@@ -1,15 +1,10 @@
 package com.demo.version.Main;
 
-import java.util.Scanner;
 import java.util.logging.Logger;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import org.apache.commons.lang3.StringUtils;
 
 public class VersionService {
 	private static final Logger logger = Logger.getLogger(VersionService.class.getName());  
-
 
 	public static int versionCompare(String str1, String str2) {
 	      String [] ver1 = str1.split("\\.");
